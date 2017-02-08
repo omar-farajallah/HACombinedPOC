@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1486595467317
+Build-Jdk: 1.8.0_111
+Built-By: omar.farajallah
+Bundle-Description: Bundles for Integration Tests for Holland America Tr
+ aining
+Bundle-ManifestVersion: 2
+Bundle-Name: Holland America Training - Integration Tests Bundles
+Bundle-SymbolicName: com.ha.it.tests
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Sling-Test-Regexp: .*Test
+Tool: Bnd-2.3.0.201405100607
