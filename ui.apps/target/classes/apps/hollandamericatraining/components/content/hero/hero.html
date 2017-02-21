@@ -1,0 +1,9 @@
+
+<div class="hero" style="background-image:url(${properties.image @context='uri'})">
+	<h3>${properties.tagline}</h3>
+	<h1>${properties.title}</h1>
+	<h3>${properties.subtitle}</h3>
+</div>
+<div data-sly-test="${!properties.title}">
+	<h1>Please enter an image</h1>
+</div>

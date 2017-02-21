@@ -1,0 +1,12 @@
+<div data-sly-test.hasTitle="${properties.title}">
+	<h2>This is the content component: ${properties.title}</h2>
+	<h2>My state is: ${properties.state}</h2>
+	<img src="${properties.file}"/>
+	<h2>${properties.color}</h2>
+</div>
+<div data-sly-test="${!hasTitle}">
+	<h2>Please enter a title</h2>
+	<ul data-sly-list.child="${currentPage.listChildren}">
+		<li>${child.title}, ${childList.index}, ${childList.count}</li>
+	</ul>
+</div>
