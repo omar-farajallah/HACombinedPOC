@@ -1,5 +1,7 @@
 import ReactHabitat from 'react-habitat';
 
+import SomeReactComponent from './src/SomeReactComponent';
+
 class Main extends ReactHabitat.Bootstrapper {
 
   constructor(){
@@ -8,6 +10,8 @@ class Main extends ReactHabitat.Bootstrapper {
 
     // Create a new container
     var container = new ReactHabitat.Container();
+    
+    container.register('SomeReactComponent', SomeReactComponent);
 
     // Set the DOM container
     this.setContainer(container);

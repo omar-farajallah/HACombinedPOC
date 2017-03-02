@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1488406100958
+Bnd-LastModified: 1488496443074
 Build-Jdk: 1.8.0_111
 Built-By: omar.farajallah
 Bundle-Description: Core bundle for Holland America Training
@@ -8,7 +8,27 @@ Bundle-Name: Holland America Training - Core
 Bundle-SymbolicName: com.ha.core
 Bundle-Version: 0.0.1.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Export-Package: com.ha.core;version="1.0"
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Export-Package: com.ha.core.models;version="0.0.1";uses:="com.adobe.cq.s
+ ightly",com.ha.core;version="1.0",com.ha.core.schedulers;version="0.0.1
+ ";uses:="org.apache.sling.api.resource,org.osgi.service.component",com.
+ ha.core.workflows;version="0.0.1";uses:="com.adobe.granite.workflow,com
+ .adobe.granite.workflow.exec,com.adobe.granite.workflow.metadata"
+Import-Package: com.adobe.cq.sightly;version="[2.2,3)",com.adobe.granite
+ .workflow;version="[1.0,2)",com.adobe.granite.workflow.exec;version="[1
+ .0,2)",com.adobe.granite.workflow.metadata;version="[1.0,2)",javax.jcr;
+ version="[2.0,3)",org.apache.sling.api.resource;version="[2.5,3)",org.a
+ pache.sling.commons.osgi;version="[2.2,3)",org.osgi.service.component;v
+ ersion="[1.1,2)",org.slf4j;version="[1.5,2)"
+Provide-Capability: osgi.service;effective:=active;objectClass="java.lan
+ g.Runnable";scheduler.period=10;scheduler.contentpath="/content/ha-base
+ -page";service.vendor=Adobe,osgi.service;effective:=active;objectClass=
+ "com.adobe.granite.workflow.exec.WorkflowProcess";process.label="Hollan
+ d Page Property Addition";process.description="Adds a property to a new
+ ly created page";service.vendor=Adobe
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.apache.sling.api.resource.ResourceResolverFactory)",osgi.ee;filter
+ :="(&(osgi.ee=JavaSE)(version=1.6))"
+Service-Component: OSGI-INF/com.ha.core.workflows.PagePropertyWorkflowPr
+ ocess.xml,OSGI-INF/com.ha.core.schedulers.PageCountScheduler.xml
 Sling-Model-Packages: com.ha.core
 Tool: Bnd-2.3.0.201405100607

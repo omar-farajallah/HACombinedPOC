@@ -1,1 +1,4 @@
+com/ha/core/schedulers/PageCountScheduler.class
 com/ha/core/package-info.class
+com/ha/core/models/HAContent.class
+com/ha/core/workflows/PagePropertyWorkflowProcess.class

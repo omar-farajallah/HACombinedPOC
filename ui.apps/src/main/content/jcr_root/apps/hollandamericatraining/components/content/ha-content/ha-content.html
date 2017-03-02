@@ -10,3 +10,7 @@
 		<li>${child.title}, ${childList.index}, ${childList.count}</li>
 	</ul>
 </div>
+<div data-component="SomeReactComponent" data-props='{"title": "${properties.title}"}'></div>
+<div data-sly-use.compUse="com.ha.core.models.HAContent">
+	<h2>This is the value from the use class: ${compUse.message}</h2>
+</div>

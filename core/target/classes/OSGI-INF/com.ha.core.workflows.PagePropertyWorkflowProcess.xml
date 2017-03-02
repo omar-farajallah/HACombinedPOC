@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="com.ha.core.workflows.PagePropertyWorkflowProcess">
+        <implementation class="com.ha.core.workflows.PagePropertyWorkflowProcess"/>
+        <service servicefactory="false">
+            <provide interface="com.adobe.granite.workflow.exec.WorkflowProcess"/>
+        </service>
+        <property name="process.label" value="Holland Page Property Addition"/>
+        <property name="process.description" value="Adds a property to a newly created page"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.ha.core.workflows.PagePropertyWorkflowProcess"/>
+    </scr:component>
+</components>

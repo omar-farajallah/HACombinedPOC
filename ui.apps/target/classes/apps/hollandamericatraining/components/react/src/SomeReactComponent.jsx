@@ -3,10 +3,7 @@ import React, { Component } from 'react';
 class SomeReactComponent extends Component {
   render() {
     return (
-      <div>
-        <h1>{this.props.title}</h1>
-        <h1>{this.props.color}</h1>
-      </div>
+		<h2>This is the React Component: {this.props.title}</h2>
     );
   }
 }
