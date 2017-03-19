@@ -1,0 +1,32 @@
+<!-- -Menu Item Component- -->
+<div data-sly-test="${!properties.menuItemLabel}">Please configure this Menu Item Component</div>
+
+<div class="bi-menu-item">${properties.menuItemLabel}</div>
+
+<div class="menu-item-dropdown">
+
+  <div data-sly-test="${properties.leftSectionLabel}">
+    <div>${properties.leftSectionLabel}</div>
+    <ul>
+      <li data-sly-test="${properties.leftSectionLink1URL && properties.leftSectionLink1Label}"><a href="${properties.leftSectionLink1URL}">${properties.leftSectionLink1Label}</a>      </li>
+      <li data-sly-test="${properties.leftSectionLink2URL && properties.leftSectionLink2Label}"><a href="${properties.leftSectionLink2URL}">${properties.leftSectionLink2Label}</a></li>
+      <li data-sly-test="${properties.leftSectionLink3URL && properties.leftSectionLink3Label}"><a href="${properties.leftSectionLink3URL}">${properties.leftSectionLink3Label}</a></li>
+      <li data-sly-test="${properties.leftSectionLink4URL && properties.leftSectionLink4Label}"><a href="${properties.leftSectionLink4URL}">${properties.leftSectionLink4Label}</a></li>
+      <li data-sly-test="${properties.leftSectionLink5URL && properties.leftSectionLink5Label}"><a href="${properties.leftSectionLink5URL}">${properties.leftSectionLink5Label}</a></li>
+      <li data-sly-test="${properties.leftSectionLink6URL && properties.leftSectionLink6Label}"><a href="${properties.leftSectionLink6URL}">${properties.leftSectionLink6Label}</a></li>
+    </ul>
+  </div>
+      
+  <div data-sly-test="${properties.rightSectionLabel}">
+    <div>${properties.rightSectionLabel}</div>
+    <ul>
+      <li data-sly-test="${properties.rightSectionLink1URL && properties.rightSectionLink1Label}"><a href="${properties.rightSectionLink1URL}">${properties.rightSectionLink1Label}</a></li>
+      <li data-sly-test="${properties.rightSectionLink2URL && properties.rightSectionLink2Label}"><a href="${properties.rightSectionLink2URL}">${properties.rightSectionLink2Label}</a></li>
+      <li data-sly-test="${properties.rightSectionLink3URL && properties.rightSectionLink3Label}"><a href="${properties.rightSectionLink3URL}">${properties.rightSectionLink3Label}</a></li>
+      <li data-sly-test="${properties.rightSectionLink4URL && properties.rightSectionLink4Label}"><a href="${properties.rightSectionLink4URL}">${properties.rightSectionLink4Label}</a></li>
+      <li data-sly-test="${properties.rightSectionLink5URL && properties.rightSectionLink5Label}"><a href="${properties.rightSectionLink5URL}">${properties.rightSectionLink5Label}</a></li>
+      <li data-sly-test="${properties.rightSectionLink6URL && properties.rightSectionLink6Label}"><a href="${properties.rightSectionLink6URL}">${properties.rightSectionLink6Label}</a></li>
+    </ul>
+  </div>
+      
+</div>

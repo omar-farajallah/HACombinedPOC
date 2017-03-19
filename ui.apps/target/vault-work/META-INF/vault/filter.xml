@@ -4,6 +4,8 @@
         <exclude pattern="/apps/hollandamericatraining/install" />
     </filter>
     <filter root="/apps/sling" />
+    <filter root="/apps/biportal" />
     <filter root="/etc/designs/hollandamericatraining"/>
     <filter root="/etc/designs/holland-design"/>
+    <filter root="/etc/designs/biportal"/>
 </workspaceFilter>
