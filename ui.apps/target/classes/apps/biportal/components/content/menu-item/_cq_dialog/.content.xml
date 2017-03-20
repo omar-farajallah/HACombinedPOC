@@ -221,7 +221,7 @@
                         </items>
                     </columns>
                 </items>
-            </subheader2column>
+            </rightsectioncolumn>
         </items>
     </content>
 </jcr:root>
