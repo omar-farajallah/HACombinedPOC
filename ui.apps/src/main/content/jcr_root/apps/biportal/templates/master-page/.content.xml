@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
 	jcr:primaryType="cq:Template"
-	jcr:title="BI Portal Base Template"
-	jcr:desription="BI Portal Description"
-	allowedPaths="[/content(/.*)?]"
+	jcr:title="Master Page Template"
+	jcr:desription="Master Template for All Pages"
+	allowedPaths="[/content]"
 	ranking="{Long}1">
 	<jcr:content
 		jcr:primaryType="cq:PageContent"
-		sling:resourceType="/apps/biportal/components/structure/bi-base-structure">
+		sling:resourceType="/apps/biportal/components/structure/master-page">
 	</jcr:content>
 </jcr:root>
