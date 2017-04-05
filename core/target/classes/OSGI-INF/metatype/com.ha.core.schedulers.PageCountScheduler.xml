@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.ha.core.schedulers.PageCountScheduler">
-    <OCD id="com.ha.core.schedulers.PageCountScheduler" name="%com.ha.core.schedulers.PageCountScheduler.name" description="%com.ha.core.schedulers.PageCountScheduler.description">
-        <AD id="scheduler.period" type="Long" default="10" name="%com.ha.core.schedulers.PageCountScheduler.scheduler.period.name" description="%com.ha.core.schedulers.PageCountScheduler.scheduler.period.description"/>
-        <AD id="scheduler.contentpath" type="String" default="/content/ha-base-page" name="%com.ha.core.schedulers.PageCountScheduler.scheduler.contentpath.name" description="%com.ha.core.schedulers.PageCountScheduler.scheduler.contentpath.description"/>
-    </OCD>
-    <Designate pid="com.ha.core.schedulers.PageCountScheduler">
-        <Object ocdref="com.ha.core.schedulers.PageCountScheduler"/>
-    </Designate>
-</metatype:MetaData>
