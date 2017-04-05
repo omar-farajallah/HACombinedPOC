@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1489788791061
+Bnd-LastModified: 1491423400572
 Build-Jdk: 1.8.0_111
 Built-By: omar.farajallah
 Bundle-Description: Core bundle for Holland America Training

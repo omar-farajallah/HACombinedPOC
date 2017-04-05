@@ -1,32 +1,14 @@
 <!-- -Menu Item Component- -->
 <div data-sly-test="${!properties.menuItemLabel}">Please configure this Menu Item Component</div>
 
+
+
 <div class="bi-menu-item">${properties.menuItemLabel}</div>
 
 <div class="menu-item-dropdown">
+  
+  <div data-component="MenuItem" data-props='{"sectionLabel": "${properties.leftSectionLabel}", "link1URL": "${properties.leftSectionLink1URL}", "link2URL": "${properties.leftSectionLink2URL}", "link3URL": "${properties.leftSectionLink3URL}", "link4URL": "${properties.leftSectionLink4URL}", "link5URL": "${properties.leftSectionLink5URL}", "link6URL": "${properties.leftSectionLink6URL}", "link1Label": "${properties.leftSectionLink1Label}", "link2Label": "${properties.leftSectionLink2Label}", "link3Label": "${properties.leftSectionLink3Label}", "link4Label": "${properties.leftSectionLink4Label}", "link5Label": "${properties.leftSectionLink5Label}", "link6Label": "${properties.leftSectionLink6Label}"}'></div>
 
-  <div>
-    <div>${properties.leftSectionLabel}</div>
-    <ul>
-      <li data-sly-test="${properties.leftSectionLink1URL && properties.leftSectionLink1Label}"><a href="${properties.leftSectionLink1URL}">${properties.leftSectionLink1Label}</a>      </li>
-      <li data-sly-test="${properties.leftSectionLink2URL && properties.leftSectionLink2Label}"><a href="${properties.leftSectionLink2URL}">${properties.leftSectionLink2Label}</a></li>
-      <li data-sly-test="${properties.leftSectionLink3URL && properties.leftSectionLink3Label}"><a href="${properties.leftSectionLink3URL}">${properties.leftSectionLink3Label}</a></li>
-      <li data-sly-test="${properties.leftSectionLink4URL && properties.leftSectionLink4Label}"><a href="${properties.leftSectionLink4URL}">${properties.leftSectionLink4Label}</a></li>
-      <li data-sly-test="${properties.leftSectionLink5URL && properties.leftSectionLink5Label}"><a href="${properties.leftSectionLink5URL}">${properties.leftSectionLink5Label}</a></li>
-      <li data-sly-test="${properties.leftSectionLink6URL && properties.leftSectionLink6Label}"><a href="${properties.leftSectionLink6URL}">${properties.leftSectionLink6Label}</a></li>
-    </ul>
-  </div>
-      
-  <div>
-    <div>${properties.rightSectionLabel}</div>
-    <ul>
-      <li data-sly-test="${properties.rightSectionLink1URL && properties.rightSectionLink1Label}"><a href="${properties.rightSectionLink1URL}">${properties.rightSectionLink1Label}</a></li>
-      <li data-sly-test="${properties.rightSectionLink2URL && properties.rightSectionLink2Label}"><a href="${properties.rightSectionLink2URL}">${properties.rightSectionLink2Label}</a></li>
-      <li data-sly-test="${properties.rightSectionLink3URL && properties.rightSectionLink3Label}"><a href="${properties.rightSectionLink3URL}">${properties.rightSectionLink3Label}</a></li>
-      <li data-sly-test="${properties.rightSectionLink4URL && properties.rightSectionLink4Label}"><a href="${properties.rightSectionLink4URL}">${properties.rightSectionLink4Label}</a></li>
-      <li data-sly-test="${properties.rightSectionLink5URL && properties.rightSectionLink5Label}"><a href="${properties.rightSectionLink5URL}">${properties.rightSectionLink5Label}</a></li>
-      <li data-sly-test="${properties.rightSectionLink6URL && properties.rightSectionLink6Label}"><a href="${properties.rightSectionLink6URL}">${properties.rightSectionLink6Label}</a></li>
-    </ul>
-  </div>
-      
+  <div data-component="MenuItem" data-props='{"sectionLabel": "${properties.rightSectionLabel}", "link1URL": "${properties.rightSectionLink1URL}", "link2URL": "${properties.rightSectionLink2URL}", "link3URL": "${properties.rightSectionLink3URL}", "link4URL": "${properties.rightSectionLink4URL}", "link5URL": "${properties.rightSectionLink5URL}", "link6URL": "${properties.rightSectionLink6URL}", "link1Label": "${properties.rightSectionLink1Label}", "link2Label": "${properties.rightSectionLink2Label}", "link3Label": "${properties.rightSectionLink3Label}", "link4Label": "${properties.rightSectionLink4Label}", "link5Label": "${properties.rightSectionLink5Label}", "link6Label": "${properties.rightSectionLink6Label}"}'></div>
+       
 </div>

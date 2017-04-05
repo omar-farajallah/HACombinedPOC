@@ -3,7 +3,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: {
         // Our main app
-        app: ['../HATraining/ui.apps/src/main/content/jcr_root/apps/hollandamericatraining/components/react/App.js'],
+        app: ['../HATraining/ui.apps/src/main/content/jcr_root/apps/biportal/components/react/App.js'],
 
         // React Habitat requires Object.assign pollyfill for old IE support
         vendor: ['babel-polyfill', 'react', 'react-dom', 'react-habitat']
