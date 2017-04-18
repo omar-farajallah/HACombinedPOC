@@ -1,7 +1,8 @@
 <!-- -Header Component- -->
-<div data-sly-test="${!properties.logoLabel}">Click Here</div>
+<div data-sly-test="${!properties.logoLabel}">Click Here to Configure Header Component</div>
 <div class="container bi-header-component">
   <div class="header-container">
+    <div data-component="Header" data-habitat-class="logo" data-props='{"logoLabel":"${properties.logoLabel}", "logoUrl":"${properties.logoUrl}"}'></div>
     <div class="menu">
       <sly data-sly-resource="${@path='menu-items', resourceType='wcm/foundation/components/parsys'}"/>
     </div>

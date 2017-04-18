@@ -1,0 +1,3 @@
+#base=js
+vendor-bundle.js
+app-bundle.js

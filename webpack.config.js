@@ -9,7 +9,7 @@ module.exports = {
         vendor: ['babel-polyfill', 'react', 'react-dom', 'react-habitat']
     },
     output: {
-        filename: '../HATraining/ui.apps/src/main/content/jcr_root/etc/designs/hollandamericatraining/js/app-bundle.js'
+        filename: '../HATraining/ui.apps/src/main/content/jcr_root/etc/designs/biportal/js/app-bundle.js'
     },
     resolve: {
         extensions: ['', '.js', '.jsx'],
@@ -29,6 +29,6 @@ module.exports = {
     plugins: [
 
         // Split our app code and libraries. See "Entry" config above
-        new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"../HATraining/ui.apps/src/main/content/jcr_root/etc/designs/hollandamericatraining/js/vendor-bundle.js"),
+        new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"../HATraining/ui.apps/src/main/content/jcr_root/etc/designs/biportal/js/vendor-bundle.js"),
     ]
 };

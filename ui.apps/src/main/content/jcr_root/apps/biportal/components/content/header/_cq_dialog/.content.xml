@@ -23,7 +23,21 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/foundation/container">
                         <items jcr:primaryType="nt:unstructured">
-                        
+                        	<logolabel
+		                		jcr:primaryType="nt:unstructured"
+		                		fieldLabel="Logo Label"
+		                		fieldDescription="Please enter a text for the logo"
+		                		required="{Boolean}true"
+		                		sling:resourceType="granite/ui/components/foundation/form/textfield"
+		                		name="./logoLabel"/>
+		                	<logourl
+		                		jcr:primaryType="nt:unstructured"
+		                		fieldLabel="Logo Url"
+		                		fieldDescription="Please select the destination URL for the logo link"
+		                		required="{Boolean}true"
+		                		rootPath="/content"
+		                		sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+		                		name="./logoUrl"/>
                         </items>
                     </columns>
                 </items>

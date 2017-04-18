@@ -5,7 +5,7 @@ class Header extends Component {
   
   render() {
     return (
-	  <div></div>
+	  <a href={this.props.logoUrl}>{this.props.logoLabel}</a>
     );
   }
 }
