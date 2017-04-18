@@ -1,0 +1,7 @@
+{
+	"links" : [
+		{ "linkLabel": "News", "linkUrl": "https://www.google.com" },
+		{ "linkLabel": "Understand Data", "linkUrl": "https://www.facebook.com" },
+		{ "linkLabel": "Use Data", "linkUrl": "https://www.twitter.com" }
+	]
+}
