@@ -1,7 +1,7 @@
 package com.ha.core.models;
 
 import com.adobe.cq.sightly.WCMUse;
-import com.day.cq.commons.jcr.JcrUtil;
+import org.apache.jackrabbit.commons.JcrUtils;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
 
@@ -25,9 +25,10 @@ public class DescriptionInfo extends WCMUse {
         }
         if (!shipId.equalsIgnoreCase("")) {
             if (!session.nodeExists("/etc/ship-descriptions/hal/ships/" + shipId)) {
-                Node shipNode = JcrUtil.createPath("/etc/ship-descriptions/hal/ships/" + shipId, "nt:unstructured", session);
+                Node shipNode = JcrUtils.getOrCreateByPath("/etc/ship-descriptions/hal/ships/", "nt:unstructured",  session);
                 Node descriptionNode = shipNode.addNode(shipId);
                 descriptionNode.setProperty("description", properties.get("shipDescription", String.class));
+                session.save();
             }
             Node shipDescriptionNode = session.getNode("/etc/ship-descriptions/hal/ships/" + shipId);
             description = shipDescriptionNode.getProperty("description").getString();

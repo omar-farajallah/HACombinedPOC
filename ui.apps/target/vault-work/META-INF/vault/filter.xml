@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/hollandamericatraining">
-        <exclude pattern="/apps/hollandamericatraining/install" />
+    <filter root="/apps/poc">
+        <exclude pattern="/apps/poc/install" />
     </filter>
-    <filter root="/apps/sling" />
-    <filter root="/apps/biportal" />
-    <filter root="/etc/designs/hollandamericatraining"/>
-    <filter root="/etc/designs/holland-design"/>
-    <filter root="/etc/designs/biportal"/>
     <filter root="/etc/data"/>
 </workspaceFilter>

@@ -7,3 +7,4 @@ Thumbs.db
 */target
 .idea
 *.iml
+*.DS_Store
