@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:unstructured"
-    jcr:title="Header"
+    jcr:title="Ship Description"
     sling:resourceType="cq/gui/components/authoring/dialog">
     <content
         jcr:primaryType="nt:unstructured"
         sling:resourceType="granite/ui/components/foundation/container">
         <layout
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
             type="nav"/>
         <items jcr:primaryType="nt:unstructured">
-        	<logo
+            <columns
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Logo"
                 sling:resourceType="granite/ui/components/foundation/container">
-                <layout
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
                 <items jcr:primaryType="nt:unstructured">
-                    <columns
+                    <shipId
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/foundation/container">
-                        <items jcr:primaryType="nt:unstructured">
-                        	<shipId
-		                		jcr:primaryType="nt:unstructured"
-		                		fieldLabel="Ship ID"
-		                		required="{Boolean}true"
-		                		sling:resourceType="granite/ui/components/foundation/form/textfield"
-		                		name="./shipId"/>
-                            <shipDescription
-                                jcr:primaryType="nt:unstructured"
-                                fieldLabel="Ship Description"
-                                required="{Boolean}true"
-                                rows="5"
-                                sling:resourceType="granite/ui/components/foundation/form/textarea"
-                                name="./shipDescription"/>
-                        </items>
-                    </columns>
+                        fieldLabel="Ship ID"
+                        required="{Boolean}true"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        name="./shipId"/>
+                    <shipDescription
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Ship Description"
+                        required="{Boolean}true"
+                        rows="5"
+                        sling:resourceType="granite/ui/components/foundation/form/textarea"
+                        name="./shipDescription"/>
                 </items>
-            </logo>
+            </columns>
         </items>
     </content>
 </jcr:root>
