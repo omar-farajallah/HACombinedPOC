@@ -1,0 +1,16 @@
+<div class="room-info">
+    <div data-sly-use.ship="com.ha.core.models.ShipInfo">
+        <h1>Room Information for: ${ship.ship.name}</h1>
+        <div data-sly-list.room="${ship.rooms}">
+            <p>Room description: ${room.description}</p>
+            <p>Number of beds: ${room.beds}</p>
+            <p>Number of baths: ${room.baths}</p>
+            <p>Min Occupancy: ${room.minOccupancy}</p>
+            <p>Max Occupancy: ${room.maxOccupancy}</p>
+            <p>Amenities:</p>
+            <ul data-sly-list.amenity="${room.amenities}">
+                <li>${amenity}</li>
+            </ul>
+        </div>
+    </div>
+</div>

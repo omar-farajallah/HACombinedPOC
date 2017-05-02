@@ -5,3 +5,5 @@ Thumbs.db
 .project
 .settings
 */target
+.idea
+*.iml

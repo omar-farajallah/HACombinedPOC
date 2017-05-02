@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
 
-class MenuItem extends Component {
+class MenuItem extends Component {    
   
+  getLinks() {
+    var links = [];
+    $.ajax({
+      url: "etc/designs/biportal/react-json.json",
+      async: false,
+      success: function(data) {
+        var linkData = data.links;
+        for (var i = 0; i < linkData.length; i++) {
+          links.push(<a href={linkData[i].linkUrl}>{linkData[i].linkLabel}</a>);
+        }
+      }
+    });
+    
+    return links;
+    
+  }
+	
   render() { 	
     return (
 		<div>
 		    <div>{this.props.sectionLabel}</div>
 		    <ul>
-		      {this.props.link1Label !== '' ? <li><a href={this.props.link1URL}>{this.props.link1Label}</a></li> : null}
-		      {this.props.link2Label !== '' ? <li><a href={this.props.link2URL}>{this.props.link2Label}</a></li> : null}
-		      {this.props.link3Label !== '' ? <li><a href={this.props.link3URL}>{this.props.link3Label}</a></li> : null}
-		      {this.props.link4Label !== '' ? <li><a href={this.props.link4URL}>{this.props.link4Label}</a></li> : null}
-		      {this.props.link5Label !== '' ? <li><a href={this.props.link5URL}>{this.props.link5Label}</a></li> : null}
-		      {this.props.link6Label !== '' ? <li><a href={this.props.link6URL}>{this.props.link6Label}</a></li> : null}
+		      {this.getLinks()}
 		    </ul>
 		  </div>
     );

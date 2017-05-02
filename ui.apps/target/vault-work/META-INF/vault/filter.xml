@@ -8,4 +8,5 @@
     <filter root="/etc/designs/hollandamericatraining"/>
     <filter root="/etc/designs/holland-design"/>
     <filter root="/etc/designs/biportal"/>
+    <filter root="/etc/data"/>
 </workspaceFilter>

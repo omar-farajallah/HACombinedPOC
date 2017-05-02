@@ -18,6 +18,7 @@ class Main extends ReactHabitat.Bootstrapper {
 
     // Set the DOM container
     this.setContainer(container);
+    
 
   }
 }
