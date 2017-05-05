@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Widget"
+          hideLabel="{Boolean}true"
+          name="./standardRTE"
+          xtype="richtext">
+    <rtePlugins jcr:primaryType="nt:unstructured">
+        <edit
+                jcr:primaryType="nt:unstructured"
+                features="*"/>
+        <font
+                jcr:primaryType="nt:unstructured"
+                features="*"/>
+        <!--Your project custom plugins here-->
+    </rtePlugins>
+</jcr:root>

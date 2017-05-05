@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <hal jcr:primaryType="nt:unstructured">
+        <ships jcr:primaryType="nt:unstructured">
+            <PR
+                jcr:primaryType="nt:unstructured"
+                cabins="{Long}1"
+                crew="{Long}1"
+                guests="{Long}1"
+                length="{Long}1"
+                name="ms Prinsendam"
+                description="ms Prinsendam description"
+                imageUrl=""
+                videoUrl=""
+                virtualTourUrl=""
+                width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                        jcr:primaryType="nt:unstructured"
+                        amenities="[2 lower beds that do not convert to 1 king-size bed,Bathroom with bathtub shower,Walk-in closet,Category R has 1 lower bed\, walk-in closet\, shower]"
+                        baths="{Long}1"
+                        beds="{Long}1"
+                        description="Interior"
+                        displayOrder="{Long}1"
+                        maxOccupancy="{Long}4"
+                        minOccupancy="{Long}1"/>
+                    <OS01
+                        jcr:primaryType="nt:unstructured"
+                        amenities="[2 lower beds convertible to 1 king-size bed,Bathroom with bathtub &amp; shower or shower only,Walk-in closet,Category includes rooms with full\, porthole and obstructed views.,Category Q has 1 lower bed\, walk-in closet\, shower]"
+                        baths="{Long}1"
+                        beds="{Long}1"
+                        description="Ocean-view"
+                        displayOrder="{Long}1"
+                        maxOccupancy="{Long}4"
+                        minOccupancy="{Long}1"/>
+                    <OB01
+                        jcr:primaryType="nt:unstructured"
+                        amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                        baths="{Long}1"
+                        beds="{Long}1"
+                        description="Vista Suite"
+                        displayOrder="{Long}1"
+                        maxOccupancy="{Long}4"
+                        minOccupancy="{Long}1"/>
+                    <SU01
+                        jcr:primaryType="nt:unstructured"
+                        amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                        baths="{Long}1"
+                        beds="{Long}1"
+                        description="Signature Suite"
+                        displayOrder="{Long}1"
+                        maxOccupancy="{Long}4"
+                        minOccupancy="{Long}1"/>
+                    <SU02
+                        jcr:primaryType="nt:unstructured"
+                        amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                        baths="{Long}1"
+                        beds="{Long}1"
+                        description="Neptune Suite"
+                        displayOrder="{Long}1"
+                        maxOccupancy="{Long}4"
+                        minOccupancy="{Long}1"/>
+                    <SU03
+                        jcr:primaryType="nt:unstructured"
+                        amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                        baths="{Long}1"
+                        beds="{Long}1"
+                        description="Pinnacle Suite"
+                        displayOrder="{Long}1"
+                        maxOccupancy="{Long}4"
+                        minOccupancy="{Long}1"/>
+                </rooms>
+            </PR>
+            <AA
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Zaandam"
+                    description="ms Zaandam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All L-, N- &amp; NN-category staterooms also have 1 sofa bed &amp; pullman upper,All M- &amp; MM-category staterooms also have 1 sofa bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Vista Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </AA>
+            <VO
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Volendam"
+                    description="ms Volendam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All L-, N- &amp; NN-category staterooms also have 1 sofa bed &amp; pullman upper,All M- &amp; MM-category staterooms also have 1 sofa bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Vista Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </VO>
+            <WE
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Westerdam"
+                    description="ms Westerdam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </WE>
+            <RT
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Rotterdam"
+                    description="ms Rotterdam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </RT>
+            <KO
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Koningsdam"
+                    description="ms Koningsdam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </KO>
+            <MA
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Maasdam"
+                    description="ms Maasdam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </MA>
+            <VE
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Veendam"
+                    description="ms Veendam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </VE>
+            <OS
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Oosterdam"
+                    description="ms Oosterdam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </OS>
+            <AM
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Amsterdam"
+                    description="ms Amsterdam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </AM>
+            <ED
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Eurodam"
+                    description="ms Eurodam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </ED>
+            <UU
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Zuiderdam"
+                    description="ms Zuiderdam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </UU>
+            <NO
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Noordam"
+                    description="ms Noordam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </NO>
+            <NA
+                    jcr:primaryType="nt:unstructured"
+                    cabins="{Long}1"
+                    crew="{Long}1"
+                    guests="{Long}1"
+                    length="{Long}1"
+                    name="ms Nieuw Amsterdam"
+                    description="ms Nieuw Amsterdam description"
+                    imageUrl=""
+                    videoUrl=""
+                    virtualTourUrl=""
+                    width="{Long}1">
+                <rooms jcr:primaryType="nt:unstructured">
+                    <IS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,Bathroom with shower]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Interior"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Ocean-view"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OS02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 queen-size bed,All FF-category staterooms also have 1 sofa bed &amp; pullman upper,Bathroom with bathtub &amp; shower,Category includes rooms with full, porthole, partial and obstructed views.]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Lanai"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <OB01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Verandah"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU01
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Private verandah,Sitting area\, walk-in closet,Floor-to-ceiling windows\, with full ocean views,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Signature Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU02
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[2 lower beds convertible to 1 king-size bed,Sofa bed,Private verandah,Floor-to-ceiling windows\,with full ocean views,Sitting area\, walk-in closet,Bathroom with bathtub &amp; shower or shower only\, two sinks,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Neptune Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                    <SU03
+                            jcr:primaryType="nt:unstructured"
+                            amenities="[Bedroom with 1 king-size bed,Floor-to-ceiling windows\, with full ocean views,Private verandah,Living room\, dining area\, walk-in closet,Bathroom with ocean-view whirlpool tub &amp; shower,Refrigerator]"
+                            baths="{Long}1"
+                            beds="{Long}1"
+                            description="Pinnacle Suite"
+                            displayOrder="{Long}1"
+                            maxOccupancy="{Long}4"
+                            minOccupancy="{Long}1"/>
+                </rooms>
+            </NA>
+        </ships>
+    </hal>
+</jcr:root>

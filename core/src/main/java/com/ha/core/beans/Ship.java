@@ -5,6 +5,9 @@ public class Ship {
     private String name;
     private Room room;
     private String description;
+    private String imageUrl;
+    private String videoUrl;
+    private String virtualTourUrl;
     private long cabins;
     private long crew;
     private long guests;
@@ -75,4 +78,27 @@ public class Ship {
         this.room = room;
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public String getVideoUrl() {
+        return videoUrl;
+    }
+
+    public void setVideoUrl(String videoUrl) {
+        this.videoUrl = videoUrl;
+    }
+
+    public String getVirtualTourUrl() {
+        return virtualTourUrl;
+    }
+
+    public void setVirtualTourUrl(String virtualTourUrl) {
+        this.virtualTourUrl = virtualTourUrl;
+    }
 }

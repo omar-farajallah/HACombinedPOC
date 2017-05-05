@@ -1,23 +1,19 @@
 package com.ha.core.models;
 
+import com.adobe.cq.sightly.WCMUse;
 import com.ha.core.beans.Room;
+import com.ha.core.beans.Ship;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
-
-import com.adobe.cq.sightly.WCMUse;
 
 import javax.jcr.Node;
 import javax.jcr.NodeIterator;
 import javax.jcr.Session;
 import javax.jcr.Value;
-
-import com.ha.core.beans.Ship;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
-
-public class ShipInfo extends WCMUse {
+public class CombinedInfo extends WCMUse {
 
     private String shipId;
 
@@ -36,7 +32,7 @@ public class ShipInfo extends WCMUse {
         if (!shipId.equalsIgnoreCase("")) {
             ResourceResolver resolver = getResourceResolver();
             Session session = resolver.adaptTo(Session.class);
-            Node shipInfoNode = session.getNode("/etc/data/hal/ships/" + shipId);
+            Node shipInfoNode = session.getNode("/etc/combined/hal/ships/" + shipId);
 
             ship = new Ship();
             ship.setCabins(shipInfoNode.getProperty("cabins").getLong());
@@ -45,8 +41,8 @@ public class ShipInfo extends WCMUse {
             ship.setLength(shipInfoNode.getProperty("length").getLong());
             ship.setWidth(shipInfoNode.getProperty("width").getLong());
 
-            if (session.nodeExists("/etc/ship-authored-data/hal/ships/" + shipId)) {
-                Node descriptionNode = session.getNode("/etc/ship-authored-data/hal/ships/" + shipId);
+            if (session.nodeExists("/etc/combined/hal/ships/" + shipId)) {
+                Node descriptionNode = session.getNode("/etc/combined/hal/ships/" + shipId);
                 ship.setDescription(descriptionNode.getProperty("description").getString());
                 ship.setImageUrl(descriptionNode.getProperty("imageUrl").getString());
                 ship.setVideoUrl(descriptionNode.getProperty("videoUrl").getString());
@@ -92,5 +88,4 @@ public class ShipInfo extends WCMUse {
     public void setRooms(ArrayList<Room> rooms) {
         this.rooms = rooms;
     }
-
 }

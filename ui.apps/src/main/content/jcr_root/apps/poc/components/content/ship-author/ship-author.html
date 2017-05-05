@@ -1,0 +1,10 @@
+<div class="authored-info">
+    <div data-sly-use.author="com.ha.core.models.ShipAuthor">
+        <p>Ship ID is: ${properties.shipId}</p>
+        <p>Ship name is: ${author.name}</p>
+        <p>Ship description is: ${author.description @ context='html'}</p>
+        <p>Ship Image URL is: ${author.imageUrl}</p>
+        <p>Ship Video URL is: ${author.videoUrl}</p>
+        <p>Ship Virtual Tour URL is: ${author.virtualTourUrl}</p>
+    </div>
+</div>
